@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+    <link rel="stylesheet" href="hw5_css.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <img src="IMG_5704.JPG" alt="Profile Picture">
+            <div id="name"><h1>MY CAT</h1></div>
+            <button id="editingButton">edit</button>
+            
+            
+            <div class="about">
+                <h2>ABOUT MY CAT</h2>
+                <p>
+                    I am a freshcat in the Department of Management Information Systems at National Chengchi University. I am very interested in studying programming and computer science fundamentals. I have experience in writing Java, HTML, CSS, JavaScript, and Python.
+                </p>
+            </div>
+            <div class="contact">
+                <h2>CONTACT</h2>
+                <a href="mailto: 113306005@g.nccu.edu.tw"><p>113306005@g.nccu.edu.tw</p></a>
+            </div>
+            <img class="logo" src="https://www.nccu.edu.tw/var/file/0/1000/img/logo_en.png" alt="University Logo">
+        </div>
+
+        <div class="right-panel">
+            <h2>Education</h2>
+            <ul class="education-list">
+                <li>
+                    <strong>2023 - now</strong> National Chengchi University, Department of MIS<br>
+                    Computer Science
+                </li>
+                <li>
+                    <strong>2021 - 2023</strong> Taipei Municipal High School<br>
+                    Participated in computer science club
+                </li>
+                <li>
+                    <strong>2018 - 2021</strong> Middle School Graduation<br>
+                    Started developing an interest in computer science
+                </li>
+            </ul>
+
+            <h2>Homework List</h2>
+            <ul class="homework-list">
+                <li><strong>HW1</strong> - <a href="https://github.com/hsuyunling/hw1.git">https://github.com/hsuyunling/hw1.git</a></li>
+                <li><strong>HW2</strong> - <a href="https://github.com/hsuyunling/HW2.git">https://github.com/hsuyunling/HW2.git</a></li>
+                <li><strong>HW3</strong> - <a href="https://github.com/hsuyunling/Hw3.git">https://github.com/hsuyunling/Hw3.git</a></li>
+            </ul>
+
+            <h2>Favorite Music</h2>
+
+            <div class="music-list" id="music-list">
+                <div class="music-item" id="music-item">
+                   <a href="https://www.youtube.com/watch?v=YVbwMufQCYA"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNaTV_VD20fcjJ6KVMVDsK097njrbIkBZGpQ&s" alt="Spotify Icon" ></a>
+                    <p>Drip</p>
+                </div>
+                <div class="music-item" id="music-item">
+                    <a href="https://www.youtube.com/watch?v=7Hshju_2J-E&pp=ygUIaGF0ZWxvdmU%3D"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNaTV_VD20fcjJ6KVMVDsK097njrbIkBZGpQ&s" alt="Spotify Icon" ></a>
+                    <p>Hatelove</p>
+                </div>
+                <div class="music-item" id="music-item">
+                    <a href="https://www.youtube.com/watch?v=u6j0w-lCGnE"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNaTV_VD20fcjJ6KVMVDsK097njrbIkBZGpQ&s" alt="Spotify Icon" ></a>
+                    <p>whiplash</p>
+                </div>
+                <div class="music-item" id="music-item">
+                    <a href="https://www.youtube.com/watch?v=FgS5DEMg8K0"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNaTV_VD20fcjJ6KVMVDsK097njrbIkBZGpQ&s" alt="Spotify Icon" ></a>
+                    <p>Study with me</p>
+                </div>
+            </div>
+            <div id="addSong">
+                <div id="url"></div>
+                <div id="songName"></div>
+                <button id="addButton">add</button>
+            </div>
+
+            <p class="note">Note: Good.</p>
+        </div>
+    </div>
+    <script src="hw7.js" charset="utf-8"></script>
+</body>
+</html>

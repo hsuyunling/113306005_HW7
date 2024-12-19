@@ -1,0 +1,104 @@
+.container {
+    display: flex;
+    max-width: 900px; 
+    height: 1150px;    
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd; 
+    padding: 20px;
+}
+
+.left-panel {
+    background-color: #2c2c2c;
+    color: white;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    height: 100%;  
+    box-sizing: border-box;  
+}
+
+.left-panel img {
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.left-panel h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.left-panel .about,
+.left-panel .contact {
+    margin-top: 30px;
+    color: white;
+}
+
+.left-panel h2 {
+    font-size: 1.5rem;
+    border-bottom: 2px solid #ffffff50;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.left-panel .logo {
+    margin-top: 30px;
+    max-width: 80%;
+}
+
+.right-panel {
+    width: 70%;
+    padding: 20px;
+    height: 100%;  
+    box-sizing: border-box;
+    overflow-y: auto; 
+}
+
+.right-panel h2 {
+    font-size: 1.8rem;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.education-list,
+.homework-list {
+    list-style: none;
+    padding: 0;
+}
+
+.education-list li,
+.homework-list li {
+    margin-bottom: 15px;
+}
+
+.education-list li strong {
+    color: #2c2c2c;
+    font-size: 1.1rem;
+}
+
+.music-list {
+    display: flex;
+    gap: 20px;
+}
+
+.music-item {
+    text-align: center;
+}
+
+.music-item img {
+    width: 60px;
+    height: 60px;
+}
+
+.music-item p {
+    margin-top: 10px;
+}
+
+.note {
+    font-size: 0.9rem;
+    color: #777;
+    margin-top: 20px;
+}
